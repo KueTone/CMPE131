@@ -1,0 +1,12 @@
+Does the change inside increment_int_a change the variable a after the function call?
+
+No it doesn't change as it is a value that is being passed and not the reference
+
+Does the change inside increment_int_b change the variable b after the function call?
+
+Yes
+
+If they differ answer why? if not why not
+
+The variable of 'a' is passing by variable, while 'b' is a list 
+and the modifier edits the elemnt of the list and therefore passes by reference
