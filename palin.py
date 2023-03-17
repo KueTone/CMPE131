@@ -1,4 +1,4 @@
-def palindrone(lst): 
+def palindrome(lst): 
           palin = True
           length = len(lst)
           for i in range(int(len(lst)/2)):
