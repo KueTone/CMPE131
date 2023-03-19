@@ -2,6 +2,10 @@ def cacti_number(arr2d):
         ROWS = len(arr2d)
         COLLS = len(arr2d[0])
         moreCactiCount = 0
+        
+        if COLLS == 1 and ROWS = 1:
+                return 1
+        
         for row in range(len(arr2d)):
                 # print(arr2d[row])
                 for element in range(len(arr2d[row])):
